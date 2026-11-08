@@ -11,7 +11,8 @@ export default {
   darkMode: "class",
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./*.{js,ts,jsx,tsx}",
+    "./{components,hooks,i18n,lib,mocks,pages,router}/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
