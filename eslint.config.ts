@@ -50,7 +50,10 @@ export default [
   js.configs.recommended,
   ...tseslint.configs.recommended,
   {
-    files: ['src/**/*.{ts,tsx}'],
+    files: [
+      '{App,main}.tsx',
+      '{components,hooks,i18n,lib,mocks,pages,router}/**/*.{ts,tsx}',
+    ],
     languageOptions: {
       ecmaVersion: 2020,
       globals: {
@@ -94,7 +97,7 @@ export default [
   },
   // Only enforce this rule for the router config file to avoid false positives elsewhere.
   {
-    files: ['src/router/config.tsx'],
+    files: ['router/config.tsx'],
     plugins: {
       'local-route': routeElementPlugin,
     },
@@ -103,4 +106,3 @@ export default [
     },
   },
 ]
-
