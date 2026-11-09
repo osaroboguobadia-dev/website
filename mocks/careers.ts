@@ -197,48 +197,42 @@ export const careerBenefits: CareerBenefit[] = [
     icon: 'ri-graduation-cap-line',
     title: 'Real Career Growth',
     description: 'Structured development, mentorship and genuine pathways to advance your technical or professional career.',
-    image:
-      'https://readdy.ai/api/search-image?query=Young%20Nigerian%20professionals%20in%20a%20bright%20training%20room%2C%20an%20older%20African%20mentor%20explaining%20a%20technical%20diagram%20on%20a%20whiteboard%2C%20engaged%20faces%2C%20natural%20window%20light%2C%20warm%20documentary%20style%20photography%2C%20authentic%20workplace%20setting&width=800&height=600&seq=career-benefit-growth-2026&orientation=landscape',
+    image: `${import.meta.env.BASE_URL}images/66306b4bf845056e.jpg`,
     imageAlt: 'Nigerian professionals in a mentorship training session',
   },
   {
     icon: 'ri-team-line',
     title: 'Collaborative Teams',
     description: 'Work alongside experienced engineers and specialists who share knowledge and support one another.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_78c1be9d527e1e06213be9e305318a48_9ac2220e.jpg',
+    image: `${import.meta.env.BASE_URL}images/3cc3099979b65354.jpg`,
     imageAlt: 'African engineers in John Holt branded hard hats and hi-vis vests collaborating over technical drawings',
   },
   {
     icon: 'ri-shield-star-line',
     title: 'Safety First, Always',
     description: 'A working culture that puts safety, integrity and doing the job properly ahead of shortcuts.',
-    image:
-      'https://readdy.ai/api/search-image?query=Nigerian%20site%20supervisor%20in%20white%20safety%20helmet%20and%20reflective%20vest%20leading%20a%20toolbox%20briefing%20with%20a%20small%20crew%20on%20an%20industrial%20site%2C%20safety%20signage%20nearby%2C%20golden%20afternoon%20light%2C%20realistic%20documentary%20photography&width=800&height=600&seq=career-benefit-safety-2026&orientation=landscape',
+    image: `${import.meta.env.BASE_URL}images/5b0664f5205430b5.jpg`,
     imageAlt: 'Nigerian site supervisor leading a safety briefing',
   },
   {
     icon: 'ri-trophy-line',
     title: 'Rewarding Work',
     description: 'Contribute to projects that power industry, protect people and keep businesses running nationwide.',
-    image:
-      'https://readdy.ai/api/search-image?query=Two%20African%20technicians%20commissioning%20a%20large%20industrial%20diesel%20generator%20inside%20a%20plant%20room%2C%20one%20holding%20a%20tablet%20while%20the%20other%20adjusts%20controls%2C%20clean%20industrial%20interior%2C%20warm%20directional%20light%2C%20authentic%20editorial%20photography&width=800&height=600&seq=career-benefit-reward-2026&orientation=landscape',
+    image: `${import.meta.env.BASE_URL}images/9ba7b5c1fedd8b7e.jpg`,
     imageAlt: 'African technicians commissioning industrial power equipment',
   },
   {
     icon: 'ri-heart-pulse-line',
     title: 'Wellbeing & Balance',
     description: 'Benefits designed to support your health, wellbeing and a sustainable balance between work and life.',
-    image:
-      'https://readdy.ai/api/search-image?query=Group%20of%20Nigerian%20colleagues%20relaxing%20together%20over%20coffee%20in%20a%20sunlit%20office%20courtyard%20with%20greenery%2C%20laughing%20in%20casual%20conversation%2C%20smart%20business%20casual%20attire%2C%20warm%20natural%20tones%2C%20candid%20lifestyle%20photography&width=800&height=600&seq=career-benefit-wellbeing-2026&orientation=landscape',
+    image: `${import.meta.env.BASE_URL}images/057045051d87cc63.jpg`,
     imageAlt: 'Nigerian colleagues relaxing together during a work break',
   },
   {
     icon: 'ri-global-line',
     title: 'Nationwide Impact',
     description: 'Join a long-established Nigerian institution with reach across states, sectors and industries.',
-    image:
-      'https://readdy.ai/api/search-image?query=Wide%20view%20of%20a%20busy%20Nigerian%20industrial%20and%20logistics%20depot%20with%20warehouses%2C%20delivery%20trucks%20and%20staff%20in%20hi-vis%20vests%20coordinating%20loading%2C%20clear%20sky%2C%20warm%20late%20afternoon%20light%2C%20realistic%20documentary%20photography&width=800&height=600&seq=career-benefit-nationwide-2026&orientation=landscape',
+    image: `${import.meta.env.BASE_URL}images/18fae3f7c0033a93.jpg`,
     imageAlt: 'Nigerian industrial and logistics depot with staff and trucks',
   },
 ];

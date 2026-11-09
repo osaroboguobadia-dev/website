@@ -1,5 +1,4 @@
 import SectionHeading from '@/components/base/SectionHeading';
-import BrandMark from '@/components/base/BrandMark';
 import { useInView } from '@/hooks/useInView';
 import { careerBenefits } from '@/mocks/careers';
 
@@ -30,12 +29,11 @@ export default function WhyWorkWithUs() {
           <div className="grid grid-cols-1 lg:grid-cols-2 items-stretch">
             <div className="relative h-64 lg:h-auto">
               <img
-                src="https://public.readdy.ai/ai/img_res/edited_1bf06e96aa3d5901a0af9a8bf955b866_433e4a5f.jpg"
+                src={`${import.meta.env.BASE_URL}images/3cc3099979b65354.jpg`}
                 alt="Life at John Holt PLC — staff in John Holt branded workwear"
                 className="w-full h-full object-cover object-top"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary-950/78 via-primary-900/28 to-primary-700/5"></div>
-              <BrandMark variant="overlay" logoClassName="h-9 md:h-11" className="pt-6 md:pt-8" />
             </div>
             <div className="p-7 md:p-10 flex flex-col justify-center">
               <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] uppercase text-accent-600">
@@ -94,7 +92,6 @@ function BenefitCard({
           className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-primary-950/80 via-primary-800/30 to-primary-700/5"></div>
-        <BrandMark variant="overlay" />
         <span className="absolute bottom-3 left-3 w-11 h-11 flex items-center justify-center rounded-xl bg-primary-600 text-background-50 shadow-md ring-2 ring-background-50/70">
           <i className={`${benefit.icon} text-lg`}></i>
         </span>

@@ -1,17 +1,15 @@
 import { Link } from 'react-router-dom';
-import BrandMark from '@/components/base/BrandMark';
 
 export default function CareersHero() {
   return (
-    <section className="relative h-[440px] md:h-[580px] flex items-end overflow-hidden">
-      <div className="absolute inset-0">
+    <section className="relative min-h-[560px] md:min-h-[580px] flex items-end overflow-hidden">
+      <div className="absolute inset-0 bg-primary-950">
         <img
-          src="https://public.readdy.ai/ai/img_res/edited_42c35c4fe42ea2baad18585ddcee4be9_39ce2883.jpg"
-          alt="Black Nigerian engineers and professionals collaborating at John Holt PLC"
+          src={`${import.meta.env.BASE_URL}images/3cc3099979b65354.jpg`}
+          alt="John Holt engineering team"
           className="w-full h-full object-cover object-top"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-foreground-950/92 via-foreground-950/40 to-foreground-950/20"></div>
-        <BrandMark variant="banner" />
+        <div className="absolute inset-0 bg-gradient-to-t from-foreground-950/95 via-foreground-950/65 to-foreground-950/45"></div>
       </div>
 
       <div className="relative z-10 w-full mx-auto max-w-[1440px] px-4 md:px-8 pb-12 md:pb-20">
