@@ -1,17 +1,15 @@
 import { Link } from 'react-router-dom';
-import BrandMark from '@/components/base/BrandMark';
 
 export default function ProjectsHero() {
   return (
-    <section className="relative h-[460px] md:h-[580px] flex items-end overflow-hidden">
-      <div className="absolute inset-0">
+    <section className="relative min-h-[560px] md:min-h-[580px] flex items-end overflow-hidden">
+      <div className="absolute inset-0 bg-primary-950">
         <img
-          src="https://readdy.ai/api/search-image?query=wide%20cinematic%20view%20of%20large-scale%20industrial%20engineering%20projects%20at%20golden%20hour%20with%20cranes%20pipelines%20and%20power%20infrastructure%2C%20dramatic%20warm%20light%2C%20deep%20red%20and%20gold%20toned%20color%20grading%2C%20abstract%20stylized%20editorial%20photograph%2C%20sense%20of%20scale%20and%20progress&width=1920&height=1000&seq=jh-projects-hero-01&orientation=landscape"
-          alt="John Holt PLC projects"
+          src={`${import.meta.env.BASE_URL}images/684eb47678b0e5b7.jpg`}
+          alt="John Holt industrial power generation facility"
           className="w-full h-full object-cover object-top"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-foreground-950/93 via-foreground-950/65 to-foreground-950/45"></div>
-        <BrandMark />
+        <div className="absolute inset-0 bg-gradient-to-t from-foreground-950/95 via-foreground-950/65 to-foreground-950/45"></div>
       </div>
 
       <div className="relative z-10 w-full mx-auto max-w-[1440px] px-4 md:px-8 pb-12 md:pb-20">

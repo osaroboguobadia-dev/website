@@ -12,7 +12,7 @@ export default function ClosingCta() {
           className={`relative rounded-3xl overflow-hidden ${inView ? 'animate-fade-up' : 'opacity-0'}`}
         >
           <img
-            src="https://readdy.ai/api/search-image?query=modern%20industrial%20facility%20exterior%20at%20dusk%20with%20warm%20lighting%2C%20sense%20of%20scale%20and%20reliability%2C%20red%20and%20gold%20toned%20color%20grading%2C%20cinematic%20wide%20shot&width=1920&height=900&seq=jh-cta-01&orientation=landscape&nocache=true"
+            src={`${import.meta.env.BASE_URL}images/9f468a485fe5a094.jpg`}
             alt="John Holt PLC facility"
             className="absolute inset-0 w-full h-full object-cover object-top"
           />

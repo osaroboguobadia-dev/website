@@ -27,7 +27,7 @@ export const projects: ProjectItem[] = [
     client: 'Leading Manufacturing Group',
     summary:
       'Turnkey standby power system designed and installed to protect a high-demand production line from costly outages.',
-    image: 'https://public.readdy.ai/ai/img_res/edited_a4bd7bfbf60882d86e9983175360321d_3ee203bc.jpg',
+    image: `${import.meta.env.BASE_URL}images/684eb47678b0e5b7.jpg`,
   },
   {
     id: 'commercial-fire-upgrade',
@@ -38,7 +38,7 @@ export const projects: ProjectItem[] = [
     client: 'Commercial Property Portfolio',
     summary:
       'Full fire detection and suppression upgrade bringing a multi-floor commercial complex up to recognised safety standards.',
-    image: 'https://public.readdy.ai/ai/img_res/edited_c14a3768acae828d157d7af04dfed1a7_cfa5ef14.jpg',
+    image: `${import.meta.env.BASE_URL}images/5b0664f5205430b5.jpg`,
   },
   {
     id: 'manufacturing-technical-support',
@@ -49,7 +49,7 @@ export const projects: ProjectItem[] = [
     client: 'Industrial Processing Facility',
     summary:
       'Ongoing engineering and planned maintenance programme that keeps critical production equipment running reliably.',
-    image: 'https://public.readdy.ai/ai/img_res/edited_d5ab0719d0088ceb6b69cd8f214d66d7_851717fd.jpg',
+    image: `${import.meta.env.BASE_URL}images/aec212a1e2f2fe39.jpg`,
   },
   {
     id: 'banking-standby-generators',
@@ -60,7 +60,7 @@ export const projects: ProjectItem[] = [
     client: 'National Banking Group',
     summary:
       'Multi-unit generator installation for branch and data operations, sized to protect transactions around the clock.',
-    image: 'https://public.readdy.ai/ai/img_res/edited_62a4dc92ca821a0f1eeab01982a6028f_a092637c.jpg',
+    image: `${import.meta.env.BASE_URL}images/6da781b727a5341f.webp`,
   },
   {
     id: 'hospital-fire-suppression',
@@ -71,8 +71,7 @@ export const projects: ProjectItem[] = [
     client: 'Regional Teaching Hospital',
     summary:
       'Detection and suppression installation across critical care areas, delivered with minimal disruption to patients.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_cab265869bcea43854387a7e277b5e5a_28f1827e.jpg',
+    image: `${import.meta.env.BASE_URL}images/5b0664f5205430b5.jpg`,
   },
   {
     id: 'nationwide-parts-distribution',
@@ -83,8 +82,7 @@ export const projects: ProjectItem[] = [
     client: 'Multi-Site Industrial Client',
     summary:
       'Managed sourcing, warehousing and delivery of genuine spares to sites across several states without project delays.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_7f894a1fdae58da89345d82692dfe793_e99d9c22.jpg',
+    image: `${import.meta.env.BASE_URL}images/18fae3f7c0033a93.jpg`,
   },
   {
     id: 'industrial-electrical-retrofit',
@@ -95,8 +93,7 @@ export const projects: ProjectItem[] = [
     client: 'Heavy Manufacturing Plant',
     summary:
       'Switchgear and distribution upgrade executed during planned shutdowns, modernising ageing plant infrastructure.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_facd16c7d207b90232361825369f2406_72586965.jpg',
+    image: `${import.meta.env.BASE_URL}images/9ba7b5c1fedd8b7e.jpg`,
   },
   {
     id: 'retail-chain-power-safety',
@@ -107,8 +104,7 @@ export const projects: ProjectItem[] = [
     client: 'National Retail Chain',
     summary:
       'Rolled-out backup power and fire safety provision across a retail estate, standardised for consistent compliance.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_57ab989bf525a1d10e1ec7d72333947a_df4a738a.jpg',
+    image: `${import.meta.env.BASE_URL}images/9fad92ce266a3519.jpg`,
   },
   {
     id: 'government-facility-engineering',
@@ -119,8 +115,7 @@ export const projects: ProjectItem[] = [
     client: 'Public Sector Institution',
     summary:
       'Multidisciplinary engineering works delivered to specification, schedule and public-sector compliance requirements.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_e98b1d59670e122f13937024c750ea88_1e740ee4.jpg',
+    image: `${import.meta.env.BASE_URL}images/057045051d87cc63.jpg`,
   },
 ];
 
@@ -161,7 +156,7 @@ export const featuredCaseStudy: FeaturedCaseStudy = {
   sector: 'Manufacturing & Industrial',
   location: 'Lagos, Nigeria',
   year: '2025',
-  image: 'https://public.readdy.ai/ai/img_res/edited_a4bd7bfbf60882d86e9983175360321d_3ee203bc.jpg',
+  image: `${import.meta.env.BASE_URL}images/684eb47678b0e5b7.jpg`,
   overview:
     'A large manufacturing group was losing production hours to grid instability. We scoped, supplied and installed a standby power system sized to the plant\u2019s true load, then wrapped it in a planned maintenance contract so it stays ready for years to come.',
   scope: [
