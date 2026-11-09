@@ -1,5 +1,5 @@
 export const brandLogoUrl =
-  'https://public.readdy.ai/ai/img_res/597537de-46bc-4c28-a323-7696a3b9dc4b.png';
+  `${import.meta.env.BASE_URL}images/c8e839bc50a0239f.png`;
 
 export interface ServiceLink {
   name: string;

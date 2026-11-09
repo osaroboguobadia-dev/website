@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="relative h-[560px] md:h-[720px] flex items-center overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="https://readdy.ai/api/search-image?query=powerful%20industrial%20generator%20facility%20at%20golden%20hour%20in%20Nigeria%2C%20engineers%20silhouettes%20reviewing%20equipment%2C%20dramatic%20cinematic%20lighting%2C%20deep%20red%20and%20gold%20toned%20color%20grading%2C%20wide%20establishing%20shot%2C%20sense%20of%20scale%20and%20technical%20sophistication&width=1920&height=1200&seq=jh-hero-01&orientation=landscape&nocache=true"
+          src={`${import.meta.env.BASE_URL}images/684eb47678b0e5b7.jpg`}
           alt="John Holt PLC industrial power facility"
           className="w-full h-full object-cover object-top"
         />
