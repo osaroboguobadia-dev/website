@@ -36,8 +36,7 @@ export const articles: Article[] = [
     readTime: '4 min read',
     excerpt:
       'New regional service hubs aim to deliver faster response times for maintenance and emergency repairs.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_4cbd3a9db88b48058083db60b638851b_b3b330d2.jpg',
+    image: `${import.meta.env.BASE_URL}images/9f468a485fe5a094.jpg`,
     tags: ['Power', 'Service', 'Network'],
   },
   {
@@ -50,8 +49,7 @@ export const articles: Article[] = [
     readTime: '7 min read',
     excerpt:
       'A practical overview of fire safety standards every facility manager should know.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_0e410a227e7c49c8fbffdef56d50ba03_922dbaed.jpg',
+    image: `${import.meta.env.BASE_URL}images/5b0664f5205430b5.jpg`,
     tags: ['Fire Safety', 'Compliance', 'Facilities'],
   },
   {
@@ -64,8 +62,7 @@ export const articles: Article[] = [
     readTime: '6 min read',
     excerpt:
       'Key factors to consider when sizing power backup systems for commercial and industrial use.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_9bee7322e6eaea9a01c0a86796f36ad4_024f6a31.jpg',
+    image: `${import.meta.env.BASE_URL}images/9ba7b5c1fedd8b7e.jpg`,
     tags: ['Power', 'Sizing', 'Industry'],
   },
   {
@@ -78,8 +75,7 @@ export const articles: Article[] = [
     readTime: '5 min read',
     excerpt:
       'A manufacturing group can now run production through grid instability after a turnkey standby power installation.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_637a5b8140e7a938fe9037beeb4581d1_135778bd.jpg',
+    image: `${import.meta.env.BASE_URL}images/684eb47678b0e5b7.jpg`,
     tags: ['Projects', 'Power', 'Manufacturing'],
   },
   {
@@ -92,8 +88,7 @@ export const articles: Article[] = [
     readTime: '6 min read',
     excerpt:
       'Reactive repairs cost more than planned servicing. Here is how a maintenance programme pays for itself.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_a41c3e9df6e05e9cf17bd60c0b4bc130_bcf9a914.jpg',
+    image: `${import.meta.env.BASE_URL}images/5dd5394b6929a2d4.jpg`,
     tags: ['Maintenance', 'Industry', 'Reliability'],
   },
   {
@@ -106,8 +101,7 @@ export const articles: Article[] = [
     readTime: '3 min read',
     excerpt:
       'A new distribution agreement broadens access to verified equipment and genuine spare parts nationwide.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_5b7f7a999e91effa6c274b3a0d83287f_8c8ce245.jpg',
+    image: `${import.meta.env.BASE_URL}images/2f3b456fad6b0de1.jpg`,
     tags: ['Company News', 'Distribution', 'Partners'],
   },
   {
@@ -120,8 +114,7 @@ export const articles: Article[] = [
     readTime: '5 min read',
     excerpt:
       'How our team installed detection and suppression systems across critical care areas without disrupting patients.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_35a1cbe7ba8e8348672042292ba2d02c_5f3d205a.jpg',
+    image: `${import.meta.env.BASE_URL}images/5b0664f5205430b5.jpg`,
     tags: ['Projects', 'Fire Safety', 'Healthcare'],
   },
   {
@@ -134,8 +127,7 @@ export const articles: Article[] = [
     readTime: '7 min read',
     excerpt:
       'A look at how efficient power planning reduces cost and supports more responsible operations.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_4fc4df5f0cd9bcafed42bd6d77f2edcd_a5cbf211.jpg',
+    image: `${import.meta.env.BASE_URL}images/684eb47678b0e5b7.jpg`,
     tags: ['Power', 'Sustainability', 'Industry'],
   },
   {
@@ -148,8 +140,7 @@ export const articles: Article[] = [
     readTime: '4 min read',
     excerpt:
       'Our apprenticeship programme trains young technicians in power, fire safety and engineering disciplines.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_b74b30b482bc03f50b378fd81cadfbcf_e32b4066.jpg',
+    image: `${import.meta.env.BASE_URL}images/3cc3099979b65354.jpg`,
     tags: ['Careers', 'Engineering', 'Training'],
   },
 ];

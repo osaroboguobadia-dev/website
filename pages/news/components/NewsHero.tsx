@@ -1,17 +1,15 @@
 import { Link } from 'react-router-dom';
-import BrandMark from '@/components/base/BrandMark';
 
 export default function NewsHero() {
   return (
-    <section className="relative h-[420px] md:h-[540px] flex items-end overflow-hidden">
-      <div className="absolute inset-0">
+    <section className="relative min-h-[560px] md:min-h-[580px] flex items-end overflow-hidden">
+      <div className="absolute inset-0 bg-primary-950">
         <img
-          src="https://public.readdy.ai/ai/img_res/edited_cbdb269b09d1ca378211d6ca4c640263_063c3b49.jpg"
-          alt="John Holt PLC news and insights"
+          src={`${import.meta.env.BASE_URL}images/66306b4bf845056e.jpg`}
+          alt="John Holt engineers planning an industrial project"
           className="w-full h-full object-cover object-top"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-foreground-950/93 via-foreground-950/65 to-foreground-950/45"></div>
-        <BrandMark />
+        <div className="absolute inset-0 bg-gradient-to-t from-foreground-950/95 via-foreground-950/65 to-foreground-950/45"></div>
       </div>
 
       <div className="relative z-10 w-full mx-auto max-w-[1440px] px-4 md:px-8 pb-12 md:pb-20">

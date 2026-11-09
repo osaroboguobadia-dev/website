@@ -12,7 +12,7 @@ export default function NewsCta() {
           className={`relative rounded-3xl overflow-hidden bg-primary-900 ${inView ? 'animate-fade-up' : 'opacity-0'}`}
         >
           <img
-            src="https://readdy.ai/api/search-image?query=abstract%20warm%20dark%20red%20and%20gold%20gradient%20texture%20with%20subtle%20industrial%20engineering%20line%20patterns%2C%20minimal%20editorial%20background%2C%20cinematic%20mood%2C%20no%20text&width=1920&height=800&seq=jh-news-cta-01&orientation=landscape"
+            src={`${import.meta.env.BASE_URL}images/18fae3f7c0033a93.jpg`}
             alt=""
             aria-hidden="true"
             className="absolute inset-0 w-full h-full object-cover object-top opacity-30"
