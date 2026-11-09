@@ -5,13 +5,6 @@ import { aboutMilestones } from '@/mocks/about';
 export default function Timeline() {
   return (
     <section className="py-20 md:py-28 bg-primary-900 relative overflow-hidden">
-      <div className="absolute inset-0 opacity-[0.06] pointer-events-none" aria-hidden="true">
-        <img
-          src="https://readdy.ai/api/search-image?query=abstract%20minimal%20texture%20of%20engineering%20blueprint%20lines%20and%20fine%20technical%20patterns%2C%20monochrome%20warm%20tone%2C%20subtle%20background&width=1920&height=1200&seq=jh-about-tl-bg-01&orientation=landscape&nocache=true"
-          alt=""
-          className="w-full h-full object-cover"
-        />
-      </div>
       <div className="relative mx-auto max-w-[1440px] px-4 md:px-8">
         <SectionHeading
           eyebrow="Our Journey"

@@ -41,15 +41,9 @@ function PillarCard({ pillar, delay }: { pillar: (typeof aboutPillars)[number]; 
       style={{ animationDelay: `${delay}ms` }}
       className={`group bg-background-50 rounded-2xl border border-background-200 p-7 h-full transition-colors hover:border-primary-300 ${inView ? 'animate-fade-up' : 'opacity-0'}`}
     >
-      <div className="relative w-16 h-16 rounded-2xl overflow-hidden bg-primary-700 ring-1 ring-primary-900/15 shadow-lg shadow-primary-900/25">
-        <img
-          src={pillar.image}
-          alt={pillar.imageAlt}
-          title={`${pillar.title} — John Holt`}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-        />
-        <span className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-accent-300/50" />
-      </div>
+      <span className="w-12 h-12 flex items-center justify-center rounded-xl bg-primary-600 text-background-50">
+        <i className={`${pillar.icon} text-2xl`} aria-hidden="true"></i>
+      </span>
       <h3 className="font-heading mt-5 text-lg font-semibold text-foreground-950">{pillar.title}</h3>
       <p className="mt-2.5 text-sm text-foreground-600 leading-relaxed">{pillar.description}</p>
     </div>

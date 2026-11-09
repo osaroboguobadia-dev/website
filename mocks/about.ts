@@ -30,31 +30,24 @@ export const aboutValues: CoreValue[] = [
 export interface Pillar {
   title: string;
   description: string;
-  image: string;
-  imageAlt: string;
+  icon: string;
 }
 
 export const aboutPillars: Pillar[] = [
   {
     title: 'Our Mission',
     description: 'To power progress across Nigeria by delivering dependable, safe and technically excellent power, fire safety and engineering solutions.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_61d0651785af543a7c64a0e399cc5a26_fd707a9b.jpg',
-    imageAlt: 'Red and gold compass emblem representing the John Holt mission',
+    icon: 'ri-compass-3-line',
   },
   {
     title: 'Our Vision',
     description: 'To remain Nigeria\u2019s most trusted industrial solutions group, setting the benchmark for quality and long-term partnership.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_c6e1946b96624ac3e835192fdaf58787_64d678e4.jpg',
-    imageAlt: 'Red and gold eye emblem representing the John Holt vision',
+    icon: 'ri-eye-line',
   },
   {
     title: 'Our Promise',
     description: 'Real expertise, measurable reliability and genuine care for every client we serve \u2014 project after project.',
-    image:
-      'https://public.readdy.ai/ai/img_res/edited_6cc0941b121996195db9c31da78be5de_7ed18570.jpg',
-    imageAlt: 'Red and gold handshake emblem representing the John Holt promise',
+    icon: 'ri-shake-hands-line',
   },
 ];
 

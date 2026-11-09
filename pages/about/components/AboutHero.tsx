@@ -1,17 +1,15 @@
 import { Link } from 'react-router-dom';
-import BrandMark from '@/components/base/BrandMark';
 
 export default function AboutHero() {
   return (
-    <section className="relative h-[440px] md:h-[580px] flex items-end overflow-hidden">
-      <div className="absolute inset-0">
+    <section className="relative min-h-[560px] md:min-h-[580px] flex items-end overflow-hidden">
+      <div className="absolute inset-0 bg-primary-950">
         <img
-          src="https://readdy.ai/api/search-image?query=wide%20industrial%20skyline%20of%20a%20modern%20Nigerian%20city%20at%20golden%20hour%20with%20power%20infrastructure%20and%20cranes%2C%20dramatic%20cinematic%20light%2C%20deep%20red%20and%20gold%20toned%20color%20grading%2C%20abstract%20stylised%20editorial%20photograph%2C%20sense%20of%20scale%20and%20progress&width=1920&height=1000&seq=jh-about-hero-01&orientation=landscape&nocache=true"
-          alt="John Holt PLC — built on heritage"
+          src={`${import.meta.env.BASE_URL}images/684eb47678b0e5b7.jpg`}
+          alt="John Holt power generation facility"
           className="w-full h-full object-cover object-top"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-foreground-950/92 via-foreground-950/60 to-foreground-950/40"></div>
-        <BrandMark />
+        <div className="absolute inset-0 bg-gradient-to-t from-foreground-950/95 via-foreground-950/60 to-foreground-950/40"></div>
       </div>
 
       <div className="relative z-10 w-full mx-auto max-w-[1440px] px-4 md:px-8 pb-12 md:pb-20">

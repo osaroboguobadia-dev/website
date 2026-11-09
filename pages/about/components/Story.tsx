@@ -12,7 +12,7 @@ export default function Story() {
         <div ref={ref} className={`relative ${inView ? 'animate-fade-up' : 'opacity-0'}`}>
           <div className="w-full h-[340px] md:h-[480px] rounded-2xl overflow-hidden border border-background-200">
             <img
-              src="https://public.readdy.ai/ai/img_res/edited_e2b12a439ef0af77c5fb4db22f7103de_197d9c50.jpg"
+              src={`${import.meta.env.BASE_URL}images/3cc3099979b65354.jpg`}
               alt="The John Holt PLC team"
               className="w-full h-full object-cover object-top"
             />
